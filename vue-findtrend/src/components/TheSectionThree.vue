@@ -27,7 +27,7 @@
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-    padding: 80px 22px 160px 18px;
+    padding: 80px 22px 160px 22px;
 }
 .main3-txt{
     color: #ADADAD;
