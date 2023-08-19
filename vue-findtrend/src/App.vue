@@ -1,4 +1,5 @@
 <script setup>
+import TheSectionFour from './components/TheSectionFour.vue';
 import TheSectionThree from './components/TheSectionThree.vue';
 import TheSectionTwo from './components/TheSectionTwo.vue';
 import TheNavbar from './components/TheNavbar.vue';
@@ -15,6 +16,7 @@ import TheHero from './components/TheHero.vue';
   </section>
   <TheSectionTwo />
   <TheSectionThree />
+  <the-section-four />
 </div>
 </template>
 

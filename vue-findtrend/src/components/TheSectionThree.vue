@@ -113,6 +113,7 @@ import heineken from '../assets/heineken.png'
  .main3 h2{
     font-weight: 700;
     font-size: 64px;
+    padding-bottom: 80px;
  }
  .companies-grid{
     display: grid;
