@@ -1,6 +1,10 @@
 <script setup>
 import TheSocialCard from './TheSocialCard.vue';
 import ButtonComponent from './ButtonComponent.vue'; 
+import image1 from "../assets/image96.png";
+import image2 from "../assets/image97.png";
+import image3 from "../assets/image95.png";
+import image4 from "../assets/Rectangle6.png";
 </script>
 
 <template>
@@ -19,18 +23,18 @@ import ButtonComponent from './ButtonComponent.vue';
     <diV class="social-cards">
         <div>
         <diV class="ts">
-        <TheSocialCard class="scard1" image="../assets/image96.png" socialText="Cryptopunk - Search"/>
+        <TheSocialCard class="scard1" :image="image1" socialText="Cryptopunk - Search"/>
         </diV>
         <div class="tp">
-        <TheSocialCard class="scard2"  image="../assets/image96.png" socialText="Popular Design - Search"/>
+        <TheSocialCard class="scard2"  :image="image2" socialText="Popular Design - Search"/>
         </div>
         </div>
         <div>
         <div class="bs">
-        <TheSocialCard class="scard3"  image="../assets/image96.png" socialText="Product Design - Search"/>
+        <TheSocialCard class="scard3"  :image="image3" socialText="Product Design - Search"/>
         </div>
         <div class="bp">
-        <TheSocialCard class="scard4"  image="../assets/image96.png" socialText="Elon Musk - Search"/>
+        <TheSocialCard class="scard4"  :image="image4" socialText="Elon Musk - Search"/>
         </div>
         </div>
     </diV>
@@ -142,5 +146,5 @@ import ButtonComponent from './ButtonComponent.vue';
    .bs{
     padding-right: 100px;
    }
-   }
+}
 </style>
