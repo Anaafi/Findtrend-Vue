@@ -1,4 +1,7 @@
 <script setup>
+import TheFooter from './components/TheFooter.vue';
+import TheSectionSix from './components/TheSectionSix.vue';
+import TheSectionFive from './components/TheSectionFive.vue';
 import TheSectionFour from './components/TheSectionFour.vue';
 import TheSectionThree from './components/TheSectionThree.vue';
 import TheSectionTwo from './components/TheSectionTwo.vue';
@@ -17,6 +20,9 @@ import TheHero from './components/TheHero.vue';
   <TheSectionTwo />
   <TheSectionThree />
   <the-section-four />
+  <the-section-five />
+  <the-section-six />
+  <the-footer />
 </div>
 </template>
 

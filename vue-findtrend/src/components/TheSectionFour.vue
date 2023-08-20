@@ -1,5 +1,5 @@
 <script setup>
-
+import ButtonComponent from './ButtonComponent.vue';
 </script>
 
 <template>
@@ -29,6 +29,7 @@
         <img src="../assets/tweet2.png"/>
         <img src="../assets/tweet3.png"/>
     </div>
+    <button-component class="main4-btn" button-text="View More Trend"/>
   </section>  
 </template>
 
@@ -79,6 +80,22 @@
     gap: 16px;
     padding: 0px 18px 32px 18px;
 }
+.main4-btn{
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    background: #000;
+    padding: 16px 24px;
+    margin: 0 auto;
+    display: flex;
+}
+.main4{
+    padding-bottom: 80px;
+}
 @media (min-width: 1024px){
     .mob, .tweetmob {
         display: none;
@@ -111,6 +128,13 @@
     justify-content: center;
     gap: 40px;
     padding: 0px 320px 80px 320px;
+    }
+    .main4-btn{
+        padding: 16px 32px;
+        font-size: 18px;
+    }
+    .main4{
+        padding-bottom: 140px;
     }
 
 }
